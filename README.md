@@ -2,7 +2,6 @@
 ===
 
 de divina proportione
----
 
 Secret canons of medieval incunabula, transposed for the web.
 
