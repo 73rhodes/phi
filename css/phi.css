@@ -1,0 +1,76 @@
+*[class*="golden-rect"]:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+*[class*="golden-rect-"] *[class*="golden-col-"] {
+  height: 100%;
+}
+
+.golden-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.golden-col-a {
+  padding: 0;
+  float: left; 
+  width: 62%;
+  overflow: auto;
+}
+
+.golden-col-b {
+  padding: 0;
+  float: left;
+  width: 38%;
+  overflow: auto;
+}
+
+.golden-row-a {
+  padding: 0;
+  height: 62%;
+  overflow: auto;
+}
+
+.golden-row-b {
+  padding: 0;
+  height: 38%;
+  overflow: auto;
+}
+
+.vandegraaf {
+  padding-left: 11%;
+  padding-right: 11%;
+  /* top and bottom padding will be adjusted */
+  padding-top: 11%;
+  padding-bottom: 0;
+}
+
+/*
+.vandegraaf > p {
+  line-height: 1.618em;
+}
+*/
+
+.vandegraaf > p:first-of-type {
+  margin-top: 0;
+}
+
+.vandegraaf > p:last-of-type {
+  margin-bottom: 0;
+}
+
+/*
+ * Items not particularly related to canons of layout
+ * but intended for optional paragraph styling
+ */
+p.lead:first-of-type:first-line {
+  font-size: 1.243em;
+}
+
+p.lead:first-of-type:first-letter {
+  font-size: 1.243em;
+}
