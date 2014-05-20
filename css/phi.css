@@ -1,3 +1,9 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 *[class*="golden-rect"]:after {
   content: "";
   display: table;
@@ -49,12 +55,6 @@
   padding-bottom: 0;
 }
 
-/*
-.vandegraaf > p {
-  line-height: 1.618em;
-}
-*/
-
 .vandegraaf > p:first-of-type {
   margin-top: 0;
 }
@@ -63,14 +63,24 @@
   margin-bottom: 0;
 }
 
-/*
- * Items not particularly related to canons of layout
- * but intended for optional paragraph styling
- */
-p.lead:first-of-type:first-line {
-  font-size: 1.243em;
+.vandegraaf > .row {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-p.lead:first-of-type:first-letter {
-  font-size: 1.243em;
+.vandegraaf > .row > .column {
+  float: left;
+  width: 50%;
+  padding-right: 5.5%;
+  text-align: justify;
+}
+
+.vandegraaf > .row > .column > p:first-of-type {
+  margin-top: 0;
+}
+
+.vandegraaf > .row > .column:last-of-type {
+  padding-left: 5.5%;
+  padding-right: 0;
 }
