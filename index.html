@@ -11,7 +11,7 @@
 
   <body>
 
-    <div class="canon vandegraaf">
+    <div class="vandegraaf">
       <div class="golden-rect-horiz" style="border: 1px solid #CCB;">
           <div class="golden-col-a" style="background: #FFE;">
             <div style="padding: 11%;">
@@ -51,32 +51,10 @@
           </div>
       </div>
     </div>
-    <div class="canon vandegraaf">
 
-      <div class="canon vandegraaf" style="border: 1px solid #CCC; background: #FFF;">
+    <div class="vandegraaf">
+      <div class="vandegraaf" style="border: 1px solid #CCC; background: #FFF;">
         <p class="lead">
-          Canons of page construction from medieval incunabula, adapted for the web.
-          A work in progress.
-        </p>
-        <p>
-          <a href="vandegraaf.html">Van de Graaf's &quot;Secret Canon&quot;</a> - single-column
-          broadsheet.
-        </p>
-        <p>
-          The Golden Section block elements - shown above.
-        </p>
-        <p>
-          Adaptation of Raúl Rosarivo's interpretation of the Golden Canon into 
-          columns of indeterminate height -TBD
-        </p>
-        <p>An image cropped in the Golden Section</p>
-        <div style="text-align: center;">
-          <div class="golden-rect-horiz" style="overflow: hidden;">
-              <img src="https://farm8.staticflickr.com/7390/10278755794_c4a80fd8e5_z.jpg"
-              style=""></img>
-          </div>
-        </div>
-        <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -84,6 +62,76 @@
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <p class="vandegraaf" style="border: 1px solid #B0A090; background: #CCC0AF;">
+          <img
+            src="https://farm8.staticflickr.com/7390/10278755794_c4a80fd8e5_z.jpg"
+            style="width: 100%; border: 1px solid #FED;"></img>
+        </p>
+        <p>&phi; de divina proportione</p>
+      </div>
+    </div> 
+
+    <div class="vandegraaf">
+      <div class="row">
+        <div class="column">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Image of arbitrary size (landscape orientation), margins defined by Van de
+            Graaf canon.
+          </p>
+          <p class="vandegraaf" style="border: 1px solid #B0A090; background: #CCC0AF;">
+            <img
+              src="https://farm5.staticflickr.com/4123/4775764919_4fd14d0e28_z.jpg"
+              style="width: 100%; width: 100%; border: 1px solid #FED;"></img>
+          </p>
+        </div>
+        <div class="column">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Margins defined by Van de Graaf canon, image in the Golden Section.
+          </p>
+          <div class="vandegraaf" style="border: 1px solid #B0A090; background: #CCC0AF;">
+            <p class="golden-rect-horiz" style="overflow: hidden;">
+              <img src="https://farm5.staticflickr.com/4137/4776404302_9e25517034_z.jpg"
+                style="height: 100%; width: 100%; border: 1px solid #FED;"></img>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vandegraaf">
+      <div class="golden-container">
+        <div class="golden-col-a" style="padding-right: 1.6em; text-align: justify;">
+          <p>
+            Adaptation of Raúl Rosarivo's interpretation of the Golden Canon into 
+            columns of indeterminate height -TBD
+          </p>
+        </div>
+        <div class="golden-col-b" style="text-align: justify;">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
         <!--
         <p>
           The laws of form and proportion found in many medieval incunabula,
@@ -113,28 +161,13 @@
           reliance that it will automatically tidy up a page to which no particular 
           forethought towards its geometry has been applied.
         </p>
-        <p>
-          One of the problems of defining margins for VDG is whether to base it on 
-          the window size or the size of the div that's declared VDG. If you want
-          to include a block element with VDG layout that's like a thumbnail, you
-          really don't want to use the client height and width for it's margins 
-          because those will not be 1/9 adn 2/9 of the block. 
-        </p>
-        <p>
-          Above there's a VDG div that has a really small padding top because the
-          div element itself is small and the script is using the lesser of window
-          and div height. So this is not what I wanted in terms of being able to
-          use consecutive VDG divs to create borders of 1/9 the window height between
-          sections. It only works that way if the div itself is equal or greater to
-          the window in height.
-        </p>
       -->
       </div>
-
     </div>
-    <div class="canon vandegraaf">
+
+    <div class="vandegraaf">
       <div class="golden-container">
-        <div class="golden-col-a">
+        <div class="golden-col-a" style="text-align: justify; padding-right: 2em;">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -144,7 +177,7 @@
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="golden-col-b">
+        <div class="golden-col-b" style="text-align: justify;">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

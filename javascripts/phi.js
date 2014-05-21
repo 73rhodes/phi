@@ -21,21 +21,25 @@ function canonify() {
   i = vdg.length;
   var windowHeight = window.innerHeight;
   var blockHeight, topPadding, bottomPadding;
+  var color;
 
   while (i--) {
     blockHeight = vdg[i].clientHeight;
     topPadding  = 0.11 * ((blockHeight < windowHeight) ? blockHeight : windowHeight);
     bottomPadding = 2 * topPadding;
+    color = vdg[i].style.background;
+    vdg[i].style.background = "yellow";
     vdg[i].style.paddingTop = topPadding;
     if (
       !vdg[i].nextElementSibling ||
         !(
-          vdg[i].nextElementSibling.classList.contains("canon") &&
+          //vdg[i].nextElementSibling.classList.contains("canon") &&
           vdg[i].nextElementSibling.classList.contains("vandegraaf")
         )
     ) {
       vdg[i].style.paddingBottom = bottomPadding;
     }
+    vdg[i].style.background = color;
   }
 
 }
