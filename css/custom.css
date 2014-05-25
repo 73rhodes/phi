@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
-  background: #E6E1DA;
+  background: #D9D5CC;
   color: #664;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
   margin: 0;
@@ -10,6 +10,7 @@ body {
 
 p {
   line-height: 1.618;
+  text-align: justify;
 }
 
 p.lead:first-of-type:first-line {
