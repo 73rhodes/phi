@@ -4,7 +4,19 @@
   box-sizing: border-box;
 }
 
-*[class*="golden-rect"]:after {
+/*
+ * General row container
+ */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+ * Golden Section in horizontal/vertical orientation
+ */
+*[class*="golden-rect-"]:after {
   content: "";
   display: table;
   clear: both;
@@ -15,34 +27,28 @@
   height: 100%;
 }
 
-.golden-container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .golden-col-a {
-  padding: 0;
+  /*padding: 0;*/
   float: left; 
   width: 62%;
   overflow: auto;
 }
 
 .golden-col-b {
-  padding: 0;
+  /*padding: 0;*/
   float: left;
   width: 38%;
   overflow: auto;
 }
 
 .golden-row-a {
-  padding: 0;
+  /*padding: 0;*/
   height: 62%;
   overflow: auto;
 }
 
 .golden-row-b {
-  padding: 0;
+  /*padding: 0;*/
   height: 38%;
   overflow: auto;
 }
@@ -61,12 +67,6 @@
 
 .vandegraaf > p:last-of-type {
   margin-bottom: 0;
-}
-
-.vandegraaf > .row {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .vandegraaf > .row > .column {
