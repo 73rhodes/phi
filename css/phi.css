@@ -56,30 +56,43 @@
 .vandegraaf {
   padding-left: 11%;
   padding-right: 11%;
-  /* top and bottom padding will be adjusted */
-  padding-top: 11%;
-  padding-bottom: 0;
+  padding-top: 11%;   /* will be adjusted */
+  padding-bottom: 0;  /* will be adjusted */
 }
 
-.vandegraaf > p:first-of-type {
+.vandegraaf p:first-of-type {
   margin-top: 0;
 }
 
-.vandegraaf > p:last-of-type {
+.vandegraaf p:last-of-type {
   margin-bottom: 0;
 }
 
-.vandegraaf > .row > .column {
+.vandegraaf > .row > .col {
   float: left;
   width: 50%;
   padding-right: 5.5%;
 }
 
-.vandegraaf > .row > .column > p:first-of-type {
-  margin-top: 0;
+.vandegraaf > .row > .col:last-of-type {
+  padding-left: 5.5%;
+  padding-right: 0;
 }
 
-.vandegraaf > .row > .column:last-of-type {
+.tschichold {
+  padding-left: 11%;
+  padding-right: 11%;
+  padding-top: 8.25%;
+  padding-bottom: 16.5%;
+}
+
+.tschichold > .row > .col {
+  float: left;
+  width: 50%;
+  padding-right: 5.5%;
+}
+
+.tschichold > .row > .col:last-of-type {
   padding-left: 5.5%;
   padding-right: 0;
 }
