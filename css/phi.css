@@ -28,27 +28,23 @@
 }
 
 .golden-col-a {
-  /*padding: 0;*/
   float: left; 
   width: 62%;
   overflow: auto;
 }
 
 .golden-col-b {
-  /*padding: 0;*/
   float: left;
   width: 38%;
   overflow: auto;
 }
 
 .golden-row-a {
-  /*padding: 0;*/
   height: 62%;
   overflow: auto;
 }
 
 .golden-row-b {
-  /*padding: 0;*/
   height: 38%;
   overflow: auto;
 }
@@ -56,8 +52,8 @@
 .vandegraaf {
   padding-left: 11%;
   padding-right: 11%;
-  padding-top: 11%;   /* will be adjusted */
-  padding-bottom: 0;  /* will be adjusted */
+  padding-top: 8.25%;    /* will be adjusted */
+  padding-bottom: 16.5%; /* will be adjusted */
 }
 
 .vandegraaf p:first-of-type {
@@ -68,16 +64,19 @@
   margin-bottom: 0;
 }
 
-.vandegraaf > .row > .col {
+.row > .vandegraaf {
   float: left;
   width: 50%;
   padding-right: 5.5%;
 }
 
-.vandegraaf > .row > .col:last-of-type {
+.row > .vandegraaf:last-of-type {
+  float: left;
+  width: 50%;
+  padding-right: 11%;
   padding-left: 5.5%;
-  padding-right: 0;
 }
+
 
 .tschichold {
   padding-left: 11%;
@@ -86,13 +85,13 @@
   padding-bottom: 16.5%;
 }
 
-.tschichold > .row > .col {
+.row > .tschichold {
   float: left;
   width: 50%;
   padding-right: 5.5%;
 }
 
-.tschichold > .row > .col:last-of-type {
+.row > .tschichold:last-of-type {
   padding-left: 5.5%;
-  padding-right: 0;
+  padding-right: 11%;
 }

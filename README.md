@@ -1,8 +1,8 @@
 &phi; phi
 ===
 
-de divina proportione
+De Divina Proportione
 
 Secret canons of medieval incunabula, transposed for the web.
 
-Work in progress. Presently the Van de Graaf 'secret canon' is implemented as a single column.
+Work in progress.
