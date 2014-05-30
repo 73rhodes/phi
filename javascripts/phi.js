@@ -27,12 +27,13 @@ function canonify() {
     topPadding  = 0.11 * ((blockHeight < windowHeight) ? blockHeight : windowHeight);
     bottomPadding = 2 * topPadding;
     vdg[i].style.paddingTop = topPadding;
-    if (
-      vdg[i].nextElementSibling && (
-        vdg[i].nextElementSibling.classList.contains("vandegraaf") ||
-        vdg[i].nextElementSibling.classList.contains("row")
-      )
-    ) {
+    //if (
+    //  vdg[i].nextElementSibling && (
+    //    vdg[i].nextElementSibling.classList.contains("vandegraaf") ||
+    //    vdg[i].nextElementSibling.classList.contains("row")
+    //  )
+    //) {
+    if (vdg[i].classList.contains("nofooter")) {
       // collapse bottom padding for stacked VDGs
       vdg[i].style.paddingBottom = 0;
     } else {
