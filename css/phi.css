@@ -95,3 +95,13 @@
   padding-left: 5.5%;
   padding-right: 11%;
 }
+
+.testrow {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+
+}
