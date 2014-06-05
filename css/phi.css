@@ -96,12 +96,19 @@
   padding-right: 11%;
 }
 
-.testrow {
+.multicolumn {
+  /* column-count with column-gap doesn't support percentages
+   * for gutters. :-( So this will have to be JS also.
+    */
   -moz-column-count: 2;
-  -moz-column-gap: 20px;
+  -moz-column-gap: 1em;
+  -moz-column-rule: 1px solid #AAA;
   -webkit-column-count: 2;
   -webkit-column-gap: 20px;
+  -webkit-column-rule: 1px solid #AAA;
+  -webkit-column-fill: balance;
   column-count: 2;
   column-gap: 20px;
-
+  column-rule: 1px solid #AAA;
+  border: 1px solid #AAA;
 }
