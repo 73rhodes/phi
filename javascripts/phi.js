@@ -30,28 +30,35 @@ function canonify() {
   while (i--) {
 
     blockHeight = vdg[i].clientHeight;
-    blockWidth  = vdg[i].clientWidth;
     topPadding  = 0.11 * ((blockHeight < windowHeight) ? blockHeight : windowHeight);
     bottomPadding = 2 * topPadding;
     vdg[i].style.paddingTop = topPadding;
     if (vdg[i].classList.contains('multicolumn')) {
+      blockWidth  = vdg[i].clientWidth;
       vdg[i].style.MozColumnGap = vdg[i].style.webkitColumnGap = vdg[i].style.columnGap = 0.11 * blockWidth + "px";
     }
 
+    // collapse bottom padding for stacked VDGs
     if (vdg[i].classList.contains("nofooter")) {
-      // collapse bottom padding for stacked VDGs
       vdg[i].style.paddingBottom = 0;
     } else {
       vdg[i].style.paddingBottom = bottomPadding;
     }
   }
 
+  // Process elements of the Tschichold canon
+  var tsc = document.getElementsByClassName("tschichold");
+  i = tsc.length;
+  while (i--) {
+    if (tsc[i].classList.contains('multicolumn')) {
+      blockWidth = tsc[i].clientWidth;
+      tsc[i].style.MozColumnGap = tsc[i].style.webkitColumnGap = tsc[i].style.columnGap = 0.11 * blockWidth + "px";
+    }
+  }
 }
 
 /**
- * Add event listener for window resize an adjust CSS
- * properties accordingly
- *
+ * Add event listener for window resize; adjust CSS properties accordingly
  */
 if (window.addEventListener) {
   window.addEventListener('resize', canonify, false);

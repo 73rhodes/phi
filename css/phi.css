@@ -64,6 +64,7 @@
   margin-bottom: 0;
 }
 
+/*
 .row > .vandegraaf {
   float: left;
   width: 50%;
@@ -76,7 +77,17 @@
   padding-right: 11%;
   padding-left: 5.5%;
 }
+*/
 
+.vandegraaf.multicolumn {
+  /* column-gap is set programatically via JS */
+  -moz-column-count: 2;
+  -moz-column-gap: 11vw;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 11vw;
+  column-count: 2;
+  column-gap: 11vw;
+}
 
 .tschichold {
   padding-left: 11%;
@@ -85,6 +96,18 @@
   padding-bottom: 16.5%;
 }
 
+.tschichold.multicolumn {
+  /* column-gap is set programatically via JS */
+  -moz-column-count: 2;
+  -moz-column-gap: 11vw;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-fill: balance;
+  column-count: 2;
+  column-gap: 20px;  
+}
+
+/*
 .row > .tschichold {
   float: left;
   width: 50%;
@@ -95,20 +118,4 @@
   padding-left: 5.5%;
   padding-right: 11%;
 }
-
-.multicolumn {
-  /* column-count with column-gap doesn't support percentages
-   * for gutters. :-( So this will have to be JS also.
-    */
-  -moz-column-count: 2;
-  -moz-column-gap: 1em;
-  -moz-column-rule: 1px solid #AAA;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 20px;
-  -webkit-column-rule: 1px solid #AAA;
-  -webkit-column-fill: balance;
-  column-count: 2;
-  column-gap: 20px;
-  column-rule: 1px solid #AAA;
-  border: 1px solid #AAA;
-}
+*/
