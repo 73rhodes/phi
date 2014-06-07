@@ -64,21 +64,6 @@
   margin-bottom: 0;
 }
 
-/*
-.row > .vandegraaf {
-  float: left;
-  width: 50%;
-  padding-right: 5.5%;
-}
-
-.row > .vandegraaf:last-of-type {
-  float: left;
-  width: 50%;
-  padding-right: 11%;
-  padding-left: 5.5%;
-}
-*/
-
 .vandegraaf.multicolumn {
   /* column-gap is set programatically via JS */
   -moz-column-count: 2;
@@ -106,16 +91,3 @@
   column-count: 2;
   column-gap: 20px;  
 }
-
-/*
-.row > .tschichold {
-  float: left;
-  width: 50%;
-  padding-right: 5.5%;
-}
-
-.row > .tschichold:last-of-type {
-  padding-left: 5.5%;
-  padding-right: 11%;
-}
-*/
