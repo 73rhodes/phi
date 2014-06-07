@@ -70,6 +70,7 @@
   -moz-column-gap: 11vw;
   -webkit-column-count: 2;
   -webkit-column-gap: 11vw;
+  -webkit-column-fill: balance;
   column-count: 2;
   column-gap: 11vw;
 }
