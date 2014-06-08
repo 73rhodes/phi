@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
   font-style: normal;
   font-weight: 400;
   background: #D9D5CC;
@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  line-height: 1.618;
+  line-height: 2em;
   text-align: justify;
 }
 
@@ -20,3 +20,23 @@ p.lead:first-of-type:first-line {
 p.lead:first-of-type:first-letter {
   font-size: 1.243em;
 }
+
+p + p {
+  text-indent: 1em;
+}
+
+.tschichold + .tschichold {
+  border: 1px solid red;
+}
+
+.tschichold + .tschichold.noheader  p:first-of-type {
+  text-indent: 1em;
+  background: pink;
+}
+
+/*
+.vandegraaf + .vandegraaf p:first-of-type {
+  text-indent: 1em;
+  background: blue;
+}
+*/
