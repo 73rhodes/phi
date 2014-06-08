@@ -54,6 +54,15 @@ function canonify() {
       blockWidth = tsc[i].clientWidth;
       tsc[i].style.MozColumnGap = tsc[i].style.webkitColumnGap = tsc[i].style.columnGap = 0.11 * blockWidth + "px";
     }
+
+    // collapse bottom padding for stacked Tschicholds
+    if (tsc[i].classList.contains("nofooter")) {
+      tsc[i].style.paddingBottom = 0;
+    }
+    if (tsc[i].classList.contains("noheader")) {
+      tsc[i].style.paddingTop = 0;
+    }
+    // TODO. DRYify, just use CSS to collapse anything with nofooter.
   }
 }
 

@@ -13,6 +13,7 @@
 
   <body>
 
+    <!-- Repeathing Golden Rectangles -->
     <div class="vandegraaf nofooter">
       <div class="golden-rect-horiz" style="border: 1px solid #AA9;">
         <div class="golden-col-a" style="background: #E6E2D8;">
@@ -54,6 +55,7 @@
       </div>
     </div>
 
+    <!-- Van de Graaf single-column broadsheet layout -->
     <div class="vandegraaf nofooter">
       <div class="vandegraaf" style="border: 1px solid #CCC; background: #FFF;">
         <p class="lead">
@@ -78,12 +80,13 @@
       </div>
     </div> 
 
+    <!-- Van de Graaf verso/recto auto balancing -->
     <div class="vandegraaf nofooter">
-      <div class="row" style="background: #FFF;">
+      <div style="background: #FFF;">
         <div class="vandegraaf multicolumn">
           <p class="lead">
-            Van de Graaf canon for verso / recto facing pages with text area in the
-            same proportion as the page.
+            Van de Graaf canon for verso / recto facing pages, auto-balanced, with text
+            area in the same proportion as the page.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -92,9 +95,7 @@
             consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            consequat.
           </p>
           <p>
             Following, an image with frame margins defined by the Van de Graaf canon;
@@ -102,21 +103,56 @@
           </p>
           <p>
             <div class="vandegraaf" style="border: 1px solid #B0A090; background: #CCC7B7;">
-                <img
-                  style="width: 100%; border: 1px solid #FED;"
-                  src="https://farm5.staticflickr.com/4137/4776404302_9e25517034.jpg"></img>
+              <img
+                style="width: 100%; border: 1px solid #FED;"
+                src="https://farm5.staticflickr.com/4137/4776404302_9e25517034.jpg"></img>
             </div>
           </p>
           <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Van de Graaf verso/recto, manual balancing -->
+    <div class="vandegraaf nofooter">
+      <div class="vandegraaf row" style="background: #FFF;">
+        <div class="page">
+          <p>
+            Manually set, intentionally unbalanced verso/recto layout using 'row' and 'page'
+            classes. The outer margins
+            are established by the vandegraaf class but the back margins are
+            set by the "page" class. I'd prefer to have margins integral to the page,
+            but the problem is, floated divs with differing heights have their margins
+            (padding actually) calculated according to their own height and not the height
+            of the encompassing vandegraaf "book".
+          </p>
+          <p>
+            This should be useful for creating a text column with illustrations, etc.
+            in the adjacent column, but with whitespace between them. Not sure if there
+            is a better way to do it; this works for now.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
           </p>
         </div>
+        <div class="page">
+          <div class="vandegraaf" style="border: 1px solid #B0A090; background: #CCC7B7;">
+            <img
+              style="width: 100%; border: 1px solid #FED;"
+              src="https://farm5.staticflickr.com/4137/4776404302_9e25517034.jpg"></img>
+          </div>
+          <p>
+            φ de divina proportione
+          </p>
+        </div>
       </div>
     </div>
 
+    <!-- Tschichold single-column broadsheet layout -->
     <div class="vandegraaf nofooter">
       <div class="tschichold" style="background: #FFF;">
         <p class="lead">
@@ -132,20 +168,19 @@
           construction. The image below is cropped in the Golden Section with margins
           in the proportion 3/4/6.
         </p>
-        <p>
         <div class="tschichold" style="border: 1px solid #B0A090; background: #CCC7B7;">
             <div class="golden-rect-horiz"  style="overflow: hidden;">
               <img src="https://farm5.staticflickr.com/4137/4776404302_9e25517034.jpg"
                   style="height: 100%; width: 100%; border: 1px solid #FED;"></img>
             </div>
         </div>
-        </p>
         <p>
           φ de divina proportione
         </p>
       </div>
     </div>
 
+    <!-- Tschichold verso/recto auto balancing -->
     <div class="vandegraaf nofooter">
       <div style="background: #FFF;">
         <div class="tschichold multicolumn">
@@ -167,10 +202,76 @@
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <p>
+            <div class="tschichold" style="border: 1px solid #B0A090; background: #CCC7B7;">
+              <div class="golden-rect-horiz"  style="overflow: hidden;">
+                <img src="https://farm5.staticflickr.com/4137/4776404302_9e25517034.jpg"
+                    style="height: 100%; width: 100%; border: 1px solid #FED;"></img>
+              </div>
+            </div>
+          </p>
         </div>
       </div>
     </div>
 
+    <div class="vandegraaf nofooter">
+      <div class="tschichold nofooter row" style="background: #FFF;">
+        <div class="page">
+          <p>
+            This is a page on tschichold, manually balanced.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="page">
+          <div class="tschichold" style="border: 1px solid #B0A090; background: #CCC7B7;">
+            <div class="golden-rect-horiz"  style="overflow: hidden;">
+              <img src="https://farm5.staticflickr.com/4137/4776404302_9e25517034.jpg"
+                  style="height: 100%; width: 100%; border: 1px solid #FED;"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tschichold noheader row" style="background: #FFF;">
+        <div class="page">
+          <p>
+            We can, for example, do things like this: pinning another illustration
+            or photo adjacent to a new paragraph of text. 
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="page">
+          <p class="vandegraaf" style="border: 1px solid #B0A090; background: #CCC7B7;">
+            <img
+              src="https://farm8.staticflickr.com/7390/10278755794_c4a80fd8e5_z.jpg"
+              style="width: 100%; border: 1px solid #FED;"></img>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- A/B Golden Ratio columns, manual balancing -->
     <div class="vandegraaf">
       <div class="row">
         <div class="golden-col-a" style="padding-right: 5.5%;">
