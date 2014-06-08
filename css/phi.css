@@ -75,11 +75,36 @@
   column-gap: 11vw;
 }
 
+ .row > .page {
+  float: left;
+  width: 50%;
+  padding-right: 6.71%;
+ }
+
+ .row > .page:last-of-type {
+  padding-left: 6.71%;
+  padding-right: 0;
+ }
+
 .tschichold {
   padding-left: 11%;
   padding-right: 11%;
   padding-top: 8.25%;
   padding-bottom: 16.5%;
+}
+
+.tschichold p:first-of-type {
+  /* condense with vandegraaf */
+  margin-top: 0;
+}
+
+.tschichold p:last-of-type {
+  /* condense with vandegraaf */
+  margin-bottom: 0;
+}
+
+.noheader p:first-of-type {
+  margin-top: 1em !important;
 }
 
 .tschichold.multicolumn {
