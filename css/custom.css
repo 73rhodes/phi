@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  line-height: 2em;
+  line-height: 1.6em;
   text-align: justify;
 }
 
@@ -25,18 +25,12 @@ p + p {
   text-indent: 1em;
 }
 
-.tschichold + .tschichold {
-  border: 1px solid red;
-}
-
 .tschichold + .tschichold.noheader  p:first-of-type {
   text-indent: 1em;
-  background: pink;
 }
 
-/*
-.vandegraaf + .vandegraaf p:first-of-type {
+.vandegraaf + .vandegraaf.noheader p:first-of-type {
   text-indent: 1em;
   background: blue;
 }
-*/
+
