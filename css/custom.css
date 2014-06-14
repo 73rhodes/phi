@@ -10,6 +10,13 @@ body {
 
 p {
   line-height: 1.6em;
+}
+
+.multicolumn p {
+  text-align: justify;
+}
+
+.page p {
   text-align: justify;
 }
 
@@ -34,3 +41,6 @@ p + p {
   background: blue;
 }
 
+.golden-margins p {
+  text-align: justify;
+}
