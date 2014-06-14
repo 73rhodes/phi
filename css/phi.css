@@ -117,3 +117,9 @@
   column-count: 2;
   column-gap: 20px;  
 }
+
+/* left and right margins combine to equal width/phi */
+.golden-margins {
+  padding-left: 19.1%;
+  padding-right: 19.1%;
+}

@@ -64,6 +64,19 @@ function canonify() {
     }
     // TODO. DRYify, just use CSS to collapse anything with nofooter.
   }
+
+  var gdm = document.getElementsByClassName('golden-margins');
+  i = gdm.length;
+  while (i--) {
+    blockHeight = gdm[i].clientHeight;
+    topPadding = 0.191 * ((blockHeight < windowHeight) ? blockHeight : windowHeight);
+    if (!gdm[i].classList.contains('noheader')) {
+      gdm[i].style.paddingTop = topPadding;
+    }
+    if (!gdm[i].classList.contains('nofooter')) {
+      gdm[i].style.paddingBottom = topPadding;
+    }
+  }
 }
 
 /**
