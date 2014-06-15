@@ -11,7 +11,7 @@ function canonify() {
   var h = document.getElementsByClassName("golden-rect-horiz");
   var i = h.length;
   while (i--) {
-    h[i].style.height = h[i].clientWidth / 1.618;
+    h[i].style.height = h[i].clientWidth / 1.618 + "px";
   }
 
   // Set golden rectangle (vertical) height
@@ -63,6 +63,19 @@ function canonify() {
       tsc[i].style.paddingTop = 0;
     }
     // TODO. DRYify, just use CSS to collapse anything with nofooter.
+  }
+
+  var gdm = document.getElementsByClassName('golden-margins');
+  i = gdm.length;
+  while (i--) {
+    blockHeight = gdm[i].clientHeight;
+    topPadding = 0.191 * ((blockHeight < windowHeight) ? blockHeight : windowHeight);
+    if (!gdm[i].classList.contains('noheader')) {
+      gdm[i].style.paddingTop = topPadding;
+    }
+    if (!gdm[i].classList.contains('nofooter')) {
+      gdm[i].style.paddingBottom = topPadding;
+    }
   }
 }
 
