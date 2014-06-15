@@ -11,7 +11,7 @@ function canonify() {
   var h = document.getElementsByClassName("golden-rect-horiz");
   var i = h.length;
   while (i--) {
-    h[i].style.height = h[i].clientWidth / 1.618;
+    h[i].style.height = h[i].clientWidth / 1.618 + "px";
   }
 
   // Set golden rectangle (vertical) height
