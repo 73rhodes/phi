@@ -10,37 +10,35 @@ body {
 
 p {
   line-height: 1.6em;
-}
-
-.multicolumn p {
+  margin-bottom: 0;
+  margin-top: 0;
   text-align: justify;
 }
 
-.page p {
-  text-align: justify;
-}
 
 p.lead:first-of-type:first-line {
   font-size: 1.243em;
 }
 
 p.lead:first-of-type:first-letter {
-  font-size: 1.243em;
+  /*font-size: 1.243em;*/
+  font-size: 1.618em;
 }
 
 p + p {
-  text-indent: 1em;
+  text-indent: 2em;
 }
 
 .tschichold + .tschichold.noheader  p:first-of-type {
-  text-indent: 1em;
+  text-indent: 2em;
 }
 
+/*
 .vandegraaf + .vandegraaf.noheader p:first-of-type {
-  text-indent: 1em;
-  background: blue;
+  text-indent: 2em;
 }
+*/
 
-.golden-margins p {
+.neo-tschichold p {
   text-align: justify;
 }

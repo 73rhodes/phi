@@ -103,9 +103,11 @@
   margin-bottom: 0;
 }
 
+/*
 .noheader p:first-of-type {
   margin-top: 1em !important;
 }
+*/
 
 .tschichold.multicolumn {
   /* column-gap is set programatically via JS */
@@ -119,7 +121,9 @@
 }
 
 /* left and right margins combine to equal width/phi */
-.golden-margins {
-  padding-left: 19.1%;
+.neo-tschichold {
+  padding-top: 12.7%;
   padding-right: 19.1%;
+  padding-left: 19.1%;
+  padding-bottom: 25.4%;
 }
