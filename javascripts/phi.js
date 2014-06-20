@@ -11,14 +11,14 @@ function canonify() {
   var h = document.getElementsByClassName("golden-rect-horiz");
   var i = h.length;
   while (i--) {
-    h[i].style.height = h[i].clientWidth / 1.618 + "px";
+    h[i].style.height = Math.floor(h[i].clientWidth / 1.618) + "px";
   }
 
   // Set golden rectangle (vertical) height
   var v = document.getElementsByClassName("golden-rect-vert");
   i = v.length;
   while (i--) {
-    v[i].style.height = v[i].clientWidth * 1.618;
+    v[i].style.height = Math.floor(v[i].clientWidth * 1.618) + "px";
   }
 
   // Process elements of the Van de Graaf canon.
@@ -32,17 +32,17 @@ function canonify() {
     blockHeight = vdg[i].clientHeight;
     topPadding  = 0.11 * ((blockHeight < windowHeight) ? blockHeight : windowHeight);
     bottomPadding = 2 * topPadding;
-    vdg[i].style.paddingTop = topPadding;
+    vdg[i].style.paddingTop = Math.floor(topPadding) + "px";
     if (vdg[i].classList.contains('multicolumn')) {
       blockWidth  = vdg[i].clientWidth;
-      vdg[i].style.MozColumnGap = vdg[i].style.webkitColumnGap = vdg[i].style.columnGap = 0.11 * blockWidth + "px";
+      vdg[i].style.MozColumnGap = vdg[i].style.webkitColumnGap = vdg[i].style.columnGap = Math.floor(0.11 * blockWidth) + "px";
     }
 
     // collapse bottom padding for stacked VDGs
     if (vdg[i].classList.contains("nofooter")) {
       vdg[i].style.paddingBottom = 0;
     } else {
-      vdg[i].style.paddingBottom = bottomPadding;
+      vdg[i].style.paddingBottom = Math.floor(bottomPadding) + "px";
     }
   }
 
@@ -52,7 +52,7 @@ function canonify() {
   while (i--) {
     if (tsc[i].classList.contains('multicolumn')) {
       blockWidth = tsc[i].clientWidth;
-      tsc[i].style.MozColumnGap = tsc[i].style.webkitColumnGap = tsc[i].style.columnGap = 0.11 * blockWidth + "px";
+      tsc[i].style.MozColumnGap = tsc[i].style.webkitColumnGap = tsc[i].style.columnGap = Math.floor(0.11 * blockWidth) + "px";
     }
 
     // collapse bottom padding for stacked Tschicholds
@@ -65,18 +65,20 @@ function canonify() {
     // TODO. DRYify, just use CSS to collapse anything with nofooter.
   }
 
+  /* *
   var gdm = document.getElementsByClassName('golden-margins');
   i = gdm.length;
   while (i--) {
     blockHeight = gdm[i].clientHeight;
-    topPadding = 0.191 * ((blockHeight < windowHeight) ? blockHeight : windowHeight);
+    topPadding = Math.floor(((blockHeight < windowHeight) ? blockHeight : windowHeight) / 1.618);
     if (!gdm[i].classList.contains('noheader')) {
-      gdm[i].style.paddingTop = topPadding;
+      gdm[i].style.paddingTop = topPadding + "px";
     }
     if (!gdm[i].classList.contains('nofooter')) {
-      gdm[i].style.paddingBottom = topPadding;
+      gdm[i].style.paddingBottom = topPadding + "px";
     }
   }
+  /* */
 }
 
 /**
