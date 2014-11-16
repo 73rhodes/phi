@@ -122,8 +122,15 @@
 
 /* left and right margins combine to equal width/phi */
 .neo-tschichold {
-  padding-top: 12.7%;
+  padding-top: 14.3%;
   padding-right: 19.1%;
   padding-left: 19.1%;
-  padding-bottom: 25.4%;
+  padding-bottom: 28.71%;
+}
+
+.optical-center {
+  padding-left: 19%;
+  padding-right: 19%;
+  padding-top: 19%;
+  padding-bottom: 23.5%;
 }
