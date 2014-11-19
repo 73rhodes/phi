@@ -2,8 +2,6 @@
 
 ###### New Canons of Layout Based on a Historical Perspective of the Golden Ratio
 
-## Intro
-
 The Golden Ratio has fascinated designers, architects and artists for centuries. It continues to interest modern-day web designers who want to apply the principles of beautiful geometry to their pages. In 2009 I wrote about [Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html), which talks about the Golden Ratio, canons of page construction, and some general ideas on how they might apply to modern-day web design. Surprisingly, it remains one of the most popular posts on my blog. There are quite a few similar articles now where the authors write in ebullient terms about the wonders of the Golden Ratio in page layout - [The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/) on retinart.net is one of the more popular articles, and it kindly referenced my post as well. Since then a lot of others have written about the Golden Ratio as it pertains to web design, with varying degrees of accuracy - mostly not so accurate, I'm afraid.
 
 Various people have attempted to implement frameworks based on the principles of the Golden Ratio, with varying degrees of success as well. A fairly recent work from 2013, [Rounded by Gravity](http://roundedbygravity.com/colophon/), does a great job of demonstrating the concept. It's basically an experimental work, however, not a re-usable CSS framework that you can download.
@@ -12,21 +10,9 @@ A few CSS grid systems have appeared with names like [Golden Grid](https://code.
 
 It turns out that web pages are a lot different than your average medieval manuscript, and it’s not easy to take ideas from the days of Gutenberg and apply them to the Internet. All of the attempts to do so seem to have fallen short of providing web developers with a reliable solution for accurately implementing the principles of the Canons of Layout. 
 
-So, I set off a couple of months ago working on a little layout framework for the web based on the concepts of these wonderful layouts that come from very old books. I wanted to see just how far one could go with these canons of page construction that have been written about by Rosarivo, Tschichold and others.  I’m happy to say I’ve had some success with it, but one of the most interesting parts was further researching the history of the Golden Ratio, also known as the Golden Mean.
+I set off a couple of months ago working on a little layout framework for the web based on the concepts of these wonderful layouts that come from very old books. I wanted to see just how far one could go with these canons of page construction that have been written about by Rosarivo, Tschichold and others.  I’m happy to say I’ve had some success with it, but one of the most interesting parts was further researching the history of the Golden Ratio, also known as the Golden Mean.
 
 Its story leads down an interesting path, from 20th century writers, to medieval book makers and renaissance artists, to ancient architects, mathematicians and philosophers. There’s a golden thread that winds its way back to ancient times, connecting various characters through their interest in this beautiful mathematical ratio known as the Golden Mean.
-
-TODO
-
-Trace the history of Canons of Layout and the Golden Mean from the present day back to it’s origins.
-Describe the thought process leading to the new canons of layout.
-Discuss difficulties translating the traditional canons to the web
-Scrolling
-different screen sizes
-Discuss potential solutions
-Demo the work I’ve done so far on the Phi.JS proof-of-concept.
-
-
 
 ## Revisiting the Golden Ratio
 
@@ -85,6 +71,16 @@ http://www.fineart-photography.com/mat.html
 Part 3: Rethinking Canons of Layout for the Modern Web
 
 Part 4: Introducing Phi.JS
+
+TODO
+
+* Trace the history of Canons of Layout and the Golden Mean from the present day back to it’s origins.
+* Describe the thought process leading to the new canons of layout.
+* Discuss difficulties translating the traditional canons to the web
+* Scrolling
+* different screen sizes
+* Discuss potential solutions
+* Demo the work done so far on the Phi.JS proof-of-concept.
 
 
 [1] Jan Tschichold, "Consistent Correlation Between Page and Type Area" in: _The Form of the Book, essays by Jan Tschichold_ (Amsterdam, Lund Humphries, 1991). Retrieved from http://www.scribd.com/doc/14747396/Tschichold, 8 June 2014. Collection of Essays originally titled "De properties van het boek (Die Proportionen des Buches)" published posthumously in 1991. Tschichold describes a "Villard Diagram" though it isn't clear what the basis for this attribution is.
