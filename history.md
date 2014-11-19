@@ -31,28 +31,46 @@ Demo the work I’ve done so far on the Phi.JS proof-of-concept.
 ## Revisiting the Golden Ratio
 
 The mathematics of the Golden Ratio (aka. Golden Mean, Golden Section) are pretty fascinating all by themselves. 
-Its expressed as:
+The ratio is defined using the symbol φ (phi) by this simple formula:
 
+```
 a/b = (a+b)/a = φ
+```
 
-which means if you have a line and you divide it into two pieces, in just the right spot, the ratio between parts a and b equals the ratio between the part a and the whole line. Only one ratio does this, and it's given a name, which is φ (phi). Solving for φ with the help of the quadratic formula, you arrive at φ = ~1.618.
+This means if you have a line made up of section `a` and a shorter section `b`, then the total length is `a + b`, and the ratio between sections `a ` and `b` is the same as the ratio between the total length `a + b` and section `a`. Another way to explain it would be that `b` is proportionally smaller than `a` by the same percentage that `a` is smaller than `a + b` together. Only one ratio works for this, and it's given a mathematical symbol: φ (phi). Solving for φ with the help of the quadratic formula, you arrive at φ = ~1.618.
 
-The Golden Ratio has been claimed to be the basis for the way a nautilus sea-shell spirals inwards to smaller and smaller chambers, or the distances at which tree branches sprout from the trunk, or the shape of the pillars at the Parthenon in Greece, or even the dimensions of the human body. It's been said to be important in Japanese zen garden design, the size of the screen on a MacBook computer, sunflowers, buildings and works of art. It's also the basis of the Golden Rectangle, which in turn is the basis of the Golden Canon of page layout.
+The Golden Ratio has been claimed as the basis for the way a nautilus sea-shell spirals inwards in smaller and smaller chambers, or the distances at which tree branches sprout from the trunk, or the shape of the pillars at the Parthenon in Greece, or even the dimensions of the human body. It's been said to be important in Japanese zen garden design, the size of the screen on a MacBook computer, sunflowers, buildings and works of art. It's also the basis of the Golden Rectangle, which in turn is the basis of the Golden Canon of page layout.
 
 The best way understand the Golden Ratio is to look at a picture of nested Golden Rectangles. A Golden Rectangle, also known as the Golden Section, has a long side and a short side that conform to the Golden Ratio of approximately 1.618.  For example a Golden Rectangle may be 1 inch high and 1.618 inches wide. With exactly the right shape of rectangle, you can divide it into to parts - a big square and a smaller rectangle - and the smaller rectangular subsection will *also* be a Golden Rectangle where one side is 1.618 times longer than the other, and which can again be divided into a square and another, smaller Golden Rectangle, and so on and so forth.  This picture is often used to illustrate the Golden Ratio. It's importan to note that there is only one shape of rectangle where this works; the sides have to be exactly the right proportion to each other, as defined by φ, or 1.618.
 
-The Golden Ratio can be defined as pair of percentages, too, which is more useful for page design. If you wanted to divide the width of the page into two columns, a and b, that conform to the Golden Ratio, you can work this out pretty easily as follows:
+The Golden Ratio can be defined as pair of percentages, which is more useful for page design. If you wanted to divide the width of the page into two columns, a and b, that conform to the Golden Ratio, you can work this out pretty easily as follows:
 
+```
 a = 1.618 * b
 a + b = 1.618 b + b = 2.618b = 100%
 b = 100% / 2.618 = 38%
 a = 62%
+```
 
-So 62% and 38% are the approximate proportions of the two columns that conform to the Golden Ratio.
+### The Golden Rectangle
 
-In the article about Canons of Layout I wrote about why this shape is considered beautiful, how various forms in nature appear to mimic this pattern, and how it’s been used in the fields of art and architecture since ancient times. But the main point of the original article was that shapes which follow a mathematical pattern tend to be more pleasing to the eye than so-called “accidental” dimensions. The human mind is amazingly adept at picking out subtle nuances of form and pattern. A layout that conforms to a pattern or mathematical relationship somehow stands out and looks more well balanced. There are quite a few patterns and mathematical relationship that can be used to construct these “non accidental” layouts, actually. What seems to be important isn’t the exact formula you use, but the fact that there *is* a proportional relationship between things, no matter how subtle, which the human brain seems capable of picking out even if we’re not conscious of it.
+Discussion of the Golden Mean inevitably turns to the Golden Rectangle, which is especially interesting for designers of things with rectangular shapes, like pages. Tschichold popularized the Golden Section in layout in his "Golden Canon", which showed that a number of medieval incunabula (books) used a layout that conformed more-or-less to the Golden Section.  The Golden Section is interesting because it's the only rectangular shape that can be divided into a perfect square and another, smaller Golden Rectangle, which can also be divided into a perfect square and another, smaller Golden Rectangle, and so on and so forth, ad infinitum.
+
+### Intentional vs. Accidental Layouts
+
+Shapes which follow a discernable pattern tend to be more pleasing to the eye than “accidental” dimensions. The human mind is amazingly adept at picking out subtle nuances of form and pattern. The Golden Ratio isn't the only well-structured pattern - there are quite a few logical geometries that can be used to construct pleasing, “non accidental” page layouts. What's most important is the fact that there *is* a proportional relationship between things, a rhyme and reason to the proportions of a page that which the eye is capable of discerning, even if we’re not conscious of it.
+
+Layouts that use arbitrary dimensions, which Jan Tschichold called "accidental layouts", seem to lack to elegant balance of ones that follow a canon of page construction where the dimensions are derived from the shape of the page itself.
 
 Part 2: Tracing the Origins of the Canons
+
+The Wikipedia article on Canons of Page Construction provides a great overview of the 20th Century authors who wrote books on page design that 
+
+In the 20th century, authors including Tschichold, Rosarivo and Van de Graafwrote influential books on the subject of page design. These writers studied the earliest printed books, medieval incunabula, and worked out various methods showing how the layout of medieval books may have been constructed. The latest of these was Jan Tschichold, a german typographer and student of the Bauhaus school of design. Tschichold wrote several books on typography and design, but it's his essay titled "Consistent Correlation Between Book Page and Type Area"[1] where the subject of page construction and the Golden Canon are mentioned. 
+
+The essay has been published posthumously in "[The Form of the Book: Essays on the Morality of Good Design](http://books.google.ca/books?id=EzNUAAAAMAAJ&dq)", by Jan Tschichold, Robert Bringhurst, and Hajo Hadeler, published by Lund Humphries in 1991.
+
+Johan A. Van de Graaf, a dutch typographer, 
 
 
 Turning Back the Pages
@@ -69,9 +87,9 @@ Part 3: Rethinking Canons of Layout for the Modern Web
 Part 4: Introducing Phi.JS
 
 
+[1] Jan Tschichold, "Consistent Correlation Between Page and Type Area" in: _The Form of the Book, essays by Jan Tschichold_ (Amsterdam, Lund Humphries, 1991). Retrieved from http://www.scribd.com/doc/14747396/Tschichold, 8 June 2014. Collection of Essays originally titled "De properties van het boek (Die Proportionen des Buches)" published posthumously in 1991. Tschichold describes a "Villard Diagram" though it isn't clear what the basis for this attribution is.
 
-
-Jan Tschichold, "Consistent Correlation Between Page and Type Area" in: _The Form of the Book, essays by Jan Tschichold_ (Amsterdam, Lund Humphries, 1991). Retrieved from http://www.scribd.com/doc/14747396/Tschichold, 8 June 2014. Collection of Essays originally titled "De properties van het boek (Die Proportionen des Buches)" published posthumously in 1991. Tschichold describes a "Villard Diagram" though it isn't clear what the basis for this attribution is.
+ALso http://www.arts.ucsb.edu/faculty/reese/classes/artistsbooks/jantschichold.pdf
 
 Raúl Mario Rosarivo, _Divina proporción tipográfica (Typographical Divine Proportion)_, (Buenos Aires, 1947).
 
