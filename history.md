@@ -49,6 +49,8 @@ Shapes which follow a discernable pattern tend to be more pleasing to the eye th
 
 Layouts that use arbitrary dimensions, which Jan Tschichold called "accidental layouts", seem to lack to elegant balance of ones that follow a canon of page construction where the dimensions are derived from the shape of the page itself.
 
+## The Optical Center
+
 Methods for making harmonious, proportional layout are interesting to page designers, but they're also used in the world of fine art. In particular, they're often used for framing fine art and photography to determine the dimensions of the mat and the position of the opening. It's fairly common for artwork to be positioned slightly above center, with a larger margin at the bottom of the mat than the top.  Framers refer to this as the "Optical Center" - the position where the artwork appears to be most balanced in the frame. Place the artwork at dead center and strangely it will seem that the top margin of the mat is too wide. Photographer Russell Cottrell writes "The optically-centered print is slightly above center. This may be more visually pleasing, because of an illusion in which a vertically-centered print seems to “sink” a little on the mount."[\[4\]](http://www.russellcottrell.com/photo/centering.htm)
 
    Alternate interpretations of the optical center:
@@ -60,11 +62,9 @@ Methods for making harmonious, proportional layout are interesting to page desig
 
 [TODO complete this section on framing and the optical center]
 
-## The Optical Center in Fine Art Framing
-
 Present day: fine art photography framing and the “optical center”
-http://www.russellcottrell.com/photo/centering.htm
-http://www.fineart-photography.com/mat.html
+  * http://www.russellcottrell.com/photo/centering.htm
+  * http://www.fineart-photography.com/mat.html
 
 ## Origins of the Canons
 
