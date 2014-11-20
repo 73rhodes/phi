@@ -23,15 +23,7 @@ a/b = (a+b)/a = φ
 
 This means that `b` is proportionally smaller than `a` by the same percentage that `a` is smaller than `a + b` together. Only one ratio works for this, and it's given a mathematical symbol: φ (phi). Solving for φ with the help of the quadratic formula, you arrive at φ = ~1.618.
 
-People have claimed that the Golden Ratio is the basis for various forms in nature, like the spiral of a nautilus sea-shell, or the intervals at which tree branches sprout from the trunk. It's been claimed as the basis for the pillars at the Parthenon, the dimensions of the human body, Japanese zen garden design, the size of the screen on a MacBook computer, sunflowers, buildings and works of art. It's also the basis of the Golden Rectangle, which in turn is the basis of Tschichold's "Golden Canon" of page layout.
-
-### The Golden Rectangle
-
-The best way understand the Golden Ratio is to look at a picture of nested Golden Rectangles. A Golden Rectangle, also known as the Golden Section, has a long side and a short side that conform to the Golden Ratio of approximately 1.618.  For example a Golden Rectangle may be 1 inch high and 1.618 inches wide. With exactly the right shape of rectangle, you can divide it into to parts - a big square and a smaller rectangle - and the smaller rectangular subsection will *also* be a Golden Rectangle where one side is 1.618 times longer than the other, and which can again be divided into a square and another, smaller Golden Rectangle, and so on and so forth.  This picture is often used to illustrate the Golden Ratio. It's important to note that there is only one shape of rectangle where this works; the sides have to be exactly the right proportion to each other, as defined by φ, or 1.618.
-
-The Golden Rectangle is especially interesting for page designers. Tschichold popularized it in his "Golden Canon", which showed that a some medieval incunabula (the earliest printed books) used a layout that conforms more-or-less to the Golden Section.
-
-![Image of Golden Section](http://mathworld.wolfram.com/images/eps-gif/GoldenSpiral_1000.gif)
+People have claimed that the Golden Ratio is the basis for various forms in nature, like the spiral of a nautilus sea-shell, or the intervals at which tree branches sprout from the trunk. It's been claimed as the basis for the pillars at the Parthenon, the dimensions of the human body, Japanese zen garden design, the size of the screen on a MacBook computer, sunflowers, buildings and works of art. 
 
 The Golden Ratio can also be expressed as pair of percentages, which is more useful for page design. If you wanted to divide the width of the page into two columns, a and b, that conform to the Golden Ratio, you can work this out pretty easily as follows:
 
@@ -42,11 +34,27 @@ b = 100% / 2.618 = 38%
 a = 62%
 ```
 
+
+### The Golden Rectangle
+
+The Golden Ratio is also the basis of the Golden Rectangle. A good way to visualize the Golden Ratio is to look at a picture of nested Golden Rectangles. A Golden Rectangle, also known as the Golden Section, has height and width that conform to the Golden Ratio of approximately 1.618.  For example, a Golden Rectangle may be 1 meter high and 1.618 meters wide. With exactly the right shape of rectangle, you can divide it into to a square and a smaller rectangle - and the smaller rectangle will *also* be a Golden Rectangle with one side 1.618 times longer than the other, and which can again be divided into a square and another Golden Rectangle, and so on and so forth.  This picture is often used to illustrate the Golden Ratio. It's important to note that there is only one shape of rectangle where this works; the sides have to be exactly the right proportion to each other, as defined by φ, or 1.618.
+
+![Image of Golden Section](http://mathworld.wolfram.com/images/eps-gif/GoldenSpiral_1000.gif)
+
+The Golden Rectangle is especially interesting for page designers. Tschichold popularized it in his "Golden Canon", which showed that a some medieval incunabula (the earliest printed books) used a layout that conforms more-or-less to the Golden Section.
+
 ### Intentional vs. Accidental Layouts
 
 Shapes which follow a discernable pattern tend to be more pleasing to the eye than “accidental” dimensions. The human mind is amazingly adept at picking out subtle nuances of form and pattern. The Golden Ratio isn't the only well-structured pattern - there are quite a few logical geometries that can be used to construct pleasing, “non accidental” page layouts. What's most important is the fact that there *is* a harmonious relationship between things, a rhyme and reason to the proportions of a page that which the eye is capable of discerning, even if we’re not fully conscious of it.
 
 Layouts that use arbitrary dimensions, which Jan Tschichold called "accidental layouts", seem to lack to elegant balance of ones that follow a canon of page construction where the dimensions are derived from the shape of the page itself.
+
+Methods for making harmonious, proportional layout are interesting to page designers, but they're also used in the world of fine art. In particular, they're often used for framing fine art and photography to determine the dimensions of the mat and the position of the opening. It's fairly common for artwork to be positioned slightly above center, with a larger margin at the bottom of the mat than the top.  Framers refer to this as the "Optical Center" - the position where the artwork appears to be most balanced in the frame. Place the artwork at dead center and strangely it will seem that the top margin of the mat is too wide. Photographer Russell Cottrell writes "The optically-centered print is slightly above center. This may be more visually pleasing, because of an illusion in which a vertically-centered print seems to “sink” a little on the mount."[\[4\]](http://www.russellcottrell.com/photo/centering.htm)
+
+   Alternate interpretations of the optical center:
+   1) given by Harold Evans (after V. Steer) in Newspaper Design (1973);
+   2) proposed by Albert A. Sutton in Design and Makeup of the Newspaper (1948);
+   from http://typophile.com/node/86543
 
 [TODO discuss how the canons can be used for modern layout - refernce retinart, bounded by gravity, etc]
 
