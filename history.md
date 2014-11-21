@@ -4,7 +4,7 @@
 
 The Golden Ratio has fascinated designers, architects and artists for centuries, and continues to interest modern-day web designers who want to apply principles of beautiful geometry to their pages. In 2009 I wrote [Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html), which talks about the Golden Ratio, canons of page construction, and some general ideas on how they might apply to modern-day web design. It's still one of my most popular posts. There are many newer articles now - one of the most well-known is [The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/) on retinart.net, which kindly linked to my article. Since then a lot of others have written similar articles, with varying degrees of accuracy.
 
-There have also been attempts to implement CSS frameworks based roughly on the Golden Ratio. A website from 2013, [Rounded by Gravity](http://roundedbygravity.com/colophon/), does a great job of demonstrating concepts of canonized layout. It's really an experimental work, however, not a re-usable CSS framework that you can download. CSS grid systems have appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/), [Golden Grid System](http://www.goldengridsystem.com/), [Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/) and the new [Golden Layout](https://golden-layout.com/) but none of them actually implement the Canons of Layout popularized by the typographers who developed them.
+There have also been attempts to implement CSS frameworks based roughly on the Golden Ratio. A website from 2013, [Rounded by Gravity](http://roundedbygravity.com/colophon/)[0], does a great job of demonstrating concepts of canonized layout. It's really an experimental work, however, not a re-usable CSS framework that you can download. CSS grid systems have appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/), [Golden Grid System](http://www.goldengridsystem.com/), [Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/) and the new [Golden Layout](https://golden-layout.com/) but none of them actually implement the Canons of Layout popularized by the typographers who developed them.
 
 It turns out that web pages are a lot different than your average medieval manuscript, and it’s not easy to take ideas from the days of Gutenberg and apply them to the Internet. All of the attempts seem to have fallen short. so far, there's no reliable solution for accurately implementing the principles of the Canons of Layout. 
 
@@ -104,6 +104,8 @@ TODO
 * Discuss potential solutions
 * Demo the work done so far on the Phi.JS proof-of-concept.
 
+[0] Rounded by Gravity roundedbygravity.com/#
+
 [1] *Die neue Typographie, Ein Handbuch für zeitgemäss Schaffende*, Berlin, Verlag des Bildungsverbandes der Deutschen Buchdrucker, 1928.
 
 [2] Jan Tschichold, "[Consistent Correlation Between Page and Type Area](http://www.arts.ucsb.edu/faculty/reese/classes/artistsbooks/jantschichold.pdf)" in: _The Form of the Book, essays by Jan Tschichold_ (Amsterdam, Lund Humphries, 1991). Retrieved from http://www.arts.ucsb.edu/faculty/reese/classes/artistsbooks/jantschichold.pdf, 18 November 2014. Tschichold describes a "Villard Diagram" though it isn't clear what the basis for this attribution is.
@@ -147,6 +149,8 @@ Another source of attribution for the so-called Villard Diagram. It mentions Hon
 
 Traditional Leading (pronounced "ledding") in CSS. http://jsfiddle.net/gxxXN/
 
-Rounded by Gravity roundedbygravity.com/#
+
 
 Book design blog http://theworldsgreatestbook.com/book-design-part-1/
+
+Typogr.js https://github.com/ekalinin/typogr.js
