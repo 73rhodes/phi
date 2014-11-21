@@ -74,7 +74,7 @@ Studying medieval book layouts, Tschichold identified what he believed was a met
 
 Tschichold was not the first typographer to write about the use of the Golden Ratio in page layout, however. Raul Mario Rosarivo, an Argentine typographer, had made a study of the Gutenberg bibles
 
-![Image of Page](http://upload.wikimedia.org/wikipedia/commons/2/27/Gutenberg_bible_Old_Testament_Epistle_of_St_Jerome.jpg)
+![Image of Page](http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Gutenberg_bible_Old_Testament_Epistle_of_St_Jerome.jpg/172px-Gutenberg_bible_Old_Testament_Epistle_of_St_Jerome.jpg)
 
 Many incunabula don't use a text area in the shape of a Golden Rectangle, and it's not clear that the ones Tschichold based his Canon on were intentionally trying to reproduce it, or just coincidentally ended up with something close. There's no doubt however that these books were considered precious treasures, that a great deal of painstaking care was taken with their design, and that their page layouts were the result of a systematic method of construction and not just arbitrarily picking margins that looked ok. Tschichold's main contribution to understanding the canons of page construction, beyond identifying that the right size of page can result in a Golden Rectangle of text, was to emphasize that the text area should be in proportion to the page, and to identify the proportions of the margins that accomplish this.
 
