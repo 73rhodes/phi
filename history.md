@@ -2,19 +2,19 @@
 
 ###### New Canons of Layout Based on a Historical Perspective of the Golden Ratio
 
-The Golden Ratio has fascinated designers, architects and artists for centuries, and continues to interest modern-day web designers who want to apply principles of beautiful geometry to their pages. In 2009 I wrote [Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html), which talks about the Golden Ratio, canons of page construction, and some general ideas on how they might apply to modern-day web design. It's still one of my most popular posts. There are many newer articles now - one of the most well-known is [The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/) on retinart.net, which kindly linked to my article. Since then a lot of others have written similar articles, with varying degrees of accuracy.
+The Golden Ratio has fascinated designers, architects and artists for centuries, and continues to interest modern-day designers who want to apply principles of beautiful geometry to their pages. In 2009 I wrote [Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html), which talks about the Golden Ratio, canons of page construction, and some general ideas on how they might apply to modern-day web design. It's still one of my most popular posts. Since then, a lot of newer articles have appeared, including [The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/), which kindly linked to my article. It covers the concept of page construction popularized by the influential modernist typographer Jan Tschichold, and is intended mainly for print.
 
-There have also been attempts to implement CSS frameworks based roughly on the Golden Ratio. A website from 2013, [Rounded by Gravity](http://roundedbygravity.com/colophon/)[0], does a great job of demonstrating concepts of canonized layout. It's really an experimental work, however, not a re-usable CSS framework that you can download. CSS grid systems have appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/), [Golden Grid System](http://www.goldengridsystem.com/), [Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/) and the new [Golden Layout](https://golden-layout.com/) but none of them actually implement the Canons of Layout popularized by the typographers who developed them.
+My article gave some basic rules of thumb for applying concepts of layout to the web, but ended there. Since then, some excellent CSS frameworks and grids have come out, including a few that make reference to the Golden Ratio. [Rounded by Gravity](http://roundedbygravity.com/colophon/)[0], an experiment in typography from 2013, does a great job of demonstrating many principles of book design, including Tschichold's "Golden Canon", translated to the web. It's an impressive collection of typographical utilities and custom scripts, but it's not yet available as a packaged CSS framework for download. Some grid systems have appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/), [Golden Grid System](http://www.goldengridsystem.com/), [Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/) and the new [Golden Layout](https://golden-layout.com/) but in spite of their names they don't actually implement the Golden Canon or related constructions.
 
-It turns out that web pages are a lot different than your average medieval manuscript, and it’s not easy to take ideas from the days of Gutenberg and apply them to the Internet. All of the attempts seem to have fallen short. so far, there's no reliable solution for accurately implementing the principles of the Canons of Layout. 
+This leaves web designers without a lot of options for implementing layouts based the Canons of Layout popularized by Tschichold and his contemporaries. Web pages are a lot different than the medieval manuscripts that first used the canons of layout, and it’s not easy to take ideas from ancient printed books and apply them to the Internet.
 
-I set off a couple of months ago working on an experimental layout framework for the web based on the concepts of the Canons of Layout that come from very old books. I wanted to see just how far one could go with the canons proposed by typographers Raúl Mario Rosarivo, Jan Tschichold and Johan A. Van de Graaf.  I’ve had some success with it, and one of the most interesting parts was further researching the history of the Golden Ratio.
+I set off a couple of months ago working on an experimental layout framework for the web based on the concepts of the Canons of Layout that come from very old books. I wanted to see just how far I could go with the canons proposed by typographers Raúl Mario Rosarivo, Jan Tschichold and Johan A. Van de Graaf.  I’ve enjoyed working on it, and one of the most interesting parts was further researching the history of the Golden Ratio.
 
-Its story leads down an interesting path, from 20th century typographers to medieval book makers and renaissance artists, to ancient architects, mathematicians and philosophers. There’s a golden thread that winds its way back to ancient times, connecting historical figures through their interest in this beautiful mathematical ratio known as the Golden Mean.
+Its story leads back through time like a golden thread connecting 20th century typographers, medieval book makers, renaissance artists, architects, mathematicians and philosophers through their interest in this beautiful mathematical ratio known as the Golden Mean.
 
 ## Revisiting the Golden Mean
 
-The mathematics of the Golden Ratio (aka. Golden Mean, Golden Section) are pretty fascinating all by themselves. 
+The mathematics of the Golden Ratio (aka. Golden Mean) are pretty fascinating all by themselves. 
 The ratio is defined using the symbol φ (phi) by this simple formula:
 
 ```
@@ -23,7 +23,7 @@ a/b = (a+b)/a = φ
 
 This says that `b` is proportionally smaller than `a` by the same percentage that `a` is smaller than `a + b` together. Only one ratio works for this, and it's given a mathematical symbol: φ (phi). Solving for φ with the help of the quadratic formula, you arrive at φ = ~1.618.
 
-People have claimed that the Golden Ratio is the basis for various forms in nature, like the spiral of a nautilus sea-shell, or the intervals at which tree branches sprout from the trunk. It's been claimed as the basis for the pillars at the Parthenon, the dimensions of the human body, Japanese zen garden design, the size of the screen on a MacBook computer, sunflowers, buildings and works of art. 
+People have claimed that the Golden Ratio is the basis for various forms in nature, like the spiral of a nautilus sea-shell, or the intervals at which tree branches sprout from the trunk. It's been claimed as the basis for the pillars at the Parthenon, the dimensions of the human body, Japanese zen garden design, the size of the screen on a MacBook computer, sunflowers, buildings and works of art.
 
 The Golden Ratio can also be expressed as pair of percentages, which is more useful for page design. If you wanted to divide the width of the page into two columns, a and b, that conform to the Golden Ratio, you can work this out pretty easily as follows:
 
@@ -34,29 +34,28 @@ b = 100% / 2.618 = 38%
 a = 62%
 ```
 
-
 ### The Golden Rectangle
 
-The Golden Ratio is often represented in the form of the Golden Rectangle, and a good way to visualize the Golden Ratio is to look at a picture of nested Golden Rectangles. A Golden Rectangle (aka. Golden Section) has height and width that conform to the Golden Ratio of approximately 1.618. With exactly this shape of rectangle, you can divide it into to a square and a smaller rectangle - and the smaller rectangle will *also* be a Golden Rectangle with one side 1.618 times longer than the other, and which can again be divided into a square and another Golden Rectangle, and so on and so forth.  This picture is often used to illustrate the Golden Ratio. It's important to note that there is only one shape of rectangle where this works; the sides have to be exactly the right proportion to each other, as defined by φ, or 1.618.
+The Golden Ratio is often represented in the form of a special rectangle. It's a good way to visualize the Golden Ratio. The Golden Rectangle (aka. Golden Section) has height and width that conform to the Golden Ratio of approximately 1.618. With exactly this shape of rectangle, you can divide it into to a square and a smaller rectangle - and the smaller rectangle will *also* be a Golden Rectangle, which can again be divided into a square and another Golden Rectangle, and so on and so forth.  This picture is often used to illustrate the Golden Ratio, showing the repeating, perfectly-nesting nature. It's important to note that there is only one shape of rectangle where this works - the Golden Rectangle.
 
 ![Image of Golden Section](http://mathworld.wolfram.com/images/eps-gif/GoldenSpiral_1000.gif)
 
 ### Intentional vs. Accidental Layouts
 
-Shapes which follow a discernable pattern tend to be more pleasing to the eye than “accidental” dimensions. The human mind is amazingly adept at picking out subtle nuances of form and pattern. The Golden Ratio isn't the only well-structured pattern - there are quite a few logical geometries that can be used to construct pleasing, “non accidental” page layouts. What's most important is the fact that there *is* a harmonious relationship between things, a rhyme and reason to the proportions of a page that which the eye is capable of discerning, even if we’re not fully conscious of it.
+Layouts which follow a discernable pattern tend to be more pleasing to the eye than arbitrarily chosen ones. The human mind is amazingly adept at picking out subtle nuances of form and pattern. There are quite a few logical geometries that can be used to construct pleasing page layouts. What's most important is not that the page looks like a Golden Rectangle, but the fact that there is a harmonious relationship between the page and the text, a rhyme and reason to the proportions of the page that which the eye is capable of discerning, even if we’re not fully conscious of it at first.
 
 Layouts that use arbitrary dimensions, which Jan Tschichold called "accidental layouts", seem to lack to elegant balance of ones that follow a canon of page construction where the dimensions are derived from the shape of the page itself.
 
 ## The Optical Center
 
-Methods for making harmonious, proportional layout are interesting to page designers, but they're also used in the world of fine art. In particular, they're often used for framing fine art and photography to determine the dimensions of the mat and the position of the opening. It's fairly common for artwork to be positioned slightly above center, with a larger margin at the bottom of the mat than the top.  Framers refer to this as the "Optical Center" - the position where the artwork appears to be most balanced in the frame. Place the artwork at dead center and strangely it will seem that the top margin of the mat is too wide. Photographer Russell Cottrell writes "The optically-centered print is slightly above center. This may be more visually pleasing, because of an illusion in which a vertically-centered print seems to “sink” a little on the mount."[\[4\]](http://www.russellcottrell.com/photo/centering.htm)
+Methods for making harmonious, proportional layouts are also used in the world of fine art. In particular, they're often used for framing fine art and photography to determine the dimensions of the mat and the position of its opening. It's fairly common for artwork to be positioned slightly above center in the frame.  This is called the "Optical Center" - the position where the artwork appears to be most balanced. Place the artwork at dead center and strangely it will seem that the top margin of the mat is too wide. Photographer Russell Cottrell writes "The optically-centered print is slightly above center. This may be more visually pleasing, because of an illusion in which a vertically-centered print seems to “sink” a little on the mount."[\[4\]](http://www.russellcottrell.com/photo/centering.htm)
 
    Alternate interpretations of the optical center:
-   1) given by Harold Evans (after V. Steer) in Newspaper Design (1973);
-   2) proposed by Albert A. Sutton in Design and Makeup of the Newspaper (1948);
-   from http://typophile.com/node/86543
+   
+   1 given by Harold Evans (after V. Steer) in Newspaper Design (1973);
+   2 proposed by Albert A. Sutton in Design and Makeup of the Newspaper (1948);
 
-[TODO discuss how the canons can be used for modern layout - refernce retinart, bounded by gravity, etc]
+   from http://typophile.com/node/86543
 
 [TODO complete this section on framing and the optical center]
 
@@ -66,37 +65,28 @@ Present day: fine art photography framing and the “optical center”
 
 ## Origins of the Canons
 
-The modern art movement and influence of the Bauhaus school of design in the early 20th century emphasized a cross-disciplinary approach that included a rennaissance in the field of typography. Modernist typographers like Tschichold, Rosarivo and Van de Graaf began studying the earliest printed books - medieval incunabula such as the Gutenberg bibles - and wrote influential treatise on page design that attempted to show how the old page layouts may have been constructed. Their Canons are 20th Century reconstructions made by reverse-engineering the beautiful examples of layout they found in medieval books.
+The modernist art movement and the Bauhaus school of design emphasized a cross-disciplinary approach that included a rennaissance in the field of typography. Modernist typographers like Tschichold, Rosarivo and Van de Graaf were interested in new ideals of beautiful page design, and they turned to an interesting source for inspiration. The pages of medieval incunabula - the earliest printed books such as the Gutenberg bibles - have always been regarded as beautiful. Tschichold and his peers carefully studied the ancient books, attempting to learn the secret methods that were used to create the elegant structure of the earliest printed pages. They proposed methods of how the old page layouts may have been constructed. Their Canons are relatively modern-day reconstructions made by reverse-engineering the beautiful examples of layout they found in medieval books.
 
-Jan Tschichold was a german typographer and early proponent of modernism who wrote extensively on typography and design; his book "Die neue Typographie (The New Typography)"[1] remains a classic, and his style guide for Penguin Books, the [Penguin Composition Rules](http://en.wikipedia.org/wiki/Penguin_Composition_Rules) brought his ideals of typography to the masses. But it's his essay entitled "Consistent Correlation Between Book Page and Type Area"[\[2\]](http://www.arts.ucsb.edu/faculty/reese/classes/artistsbooks/jantschichold.pdf) wherein he discusses page construction and his concept of the Golden Canon. The essay has been published posthumously in 1991 in "De properties van het boek (Die Proportionen des Buches)", published in English as "The Form of the Book: Essays on the Morality of Good Design"[\[3\]](http://books.google.ca/books?id=EzNUAAAAMAAJ&dq), containing essays by Jan Tschichold, Robert Bringhurst, and Hajo Hadeler.
+Jan Tschichold was a German typographer and early proponent of modernism who wrote extensively on typography and design; his book "Die neue Typographie (The New Typography)"[1] remains a classic, and his style guide for Penguin Books, the [Penguin Composition Rules](http://en.wikipedia.org/wiki/Penguin_Composition_Rules) brought his ideals of typography to the masses. His essay "Consistent Correlation Between Book Page and Type Area"[\[2\]](http://www.arts.ucsb.edu/faculty/reese/classes/artistsbooks/jantschichold.pdf) discusses page construction and his concept of the Golden Canon. It's part of a collection of essays published posthumously in 1991 as "De properties van het boek (Die Proportionen des Buches)", available in English as "The Form of the Book: Essays on the Morality of Good Design"[\[3\]](http://books.google.ca/books?id=EzNUAAAAMAAJ&dq), containing essays by Jan Tschichold, Robert Bringhurst, and Hajo Hadeler.
 
-Studying medieval book layouts, Tschichold identified what he believed was a method of page layout used by some medieval printers to produced a text area that closely resembles the Golden Section, and he called this the "Golden Canon". His method requires starting with a page of the right proportions, then applying the same methods that other typographers had already discovered, leading to a text area in the Golden Section with well-balanced margins surrounding it. 
-
-Tschichold was not the first typographer to write about the use of the Golden Ratio in page layout, however. Raul Mario Rosarivo, an Argentine typographer, had made a study of the Gutenberg bibles
+Studying medieval manuscripts, Tschichold extended the theories of Rosarivo and Van de Graaf by identifying what he believed was a method of page layout used by some medieval printers to produced a text area that closely resembles the Golden Section. He called this the "Golden Canon", a method requires starting with a page 2:3 proportion, leading to a text area in the Golden Section and specific margins. Tschichold was not the first typographer to write about the use of the Golden Ratio in page layout, however. He references the work of Rosarivo, who had his own theories about how medieval pages were constructed.
 
 ![Image of Page](http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Gutenberg_bible_Old_Testament_Epistle_of_St_Jerome.jpg/172px-Gutenberg_bible_Old_Testament_Epistle_of_St_Jerome.jpg)
 
-Many incunabula don't use a text area in the shape of a Golden Rectangle, and it's not clear that the ones Tschichold based his Canon on were intentionally trying to reproduce it, or just coincidentally ended up with something close. There's no doubt however that these books were considered precious treasures, that a great deal of painstaking care was taken with their design, and that their page layouts were the result of a systematic method of construction and not just arbitrarily picking margins that looked ok. Tschichold's main contribution to understanding the canons of page construction, beyond identifying that the right size of page can result in a Golden Rectangle of text, was to emphasize that the text area should be in proportion to the page, and to identify the proportions of the margins that accomplish this.
+Raul Mario Rosarivo, an Argentine typographer, studied the Gutenberg bibles extensively, and believed he'd discovered the secret of their beautiful dimensions. With the use of a compass he analyzed the pages and published his findings in  "Divina proporción tipográfica"[5] (The Divine Typographical Proportion, 1947). He claimed that the pages made use of the Golden Ratio, or the "Divine Typographical Proportion" as he called it, although he took this ratio to be 2:3, a convergent (approximation) of the Golden Ratio (1.5 rather than 1.618). Essentially, Rosarivo's method involves dividing the page into a 9-by-9 grid with top and inner margins of 1, bottom and back margins of 2.
 
-[TODO discuss Tschichold's references to Van de Graaf's "Secret Canon" and Rosarivo's "Divine Proportion"]
+Tschichold showed that Rosarivo's method of dividing a page into 9ths was equivalent to another known method proposed by the Dutch scholar of book design, Johan A. Van de Graaf, in his book _Nieuwe berekening voor de vormgeving_[6]. Van de Graaf had discovered "The Secret Canon" -  a simple method of reconstructing the layout of medieval incunabula using only a straight edge and a series of diagonal lines. It works for pages of any dimensions, and is the simplest way of achieving the same pleasing proportions of text area and margins that Rosarivo and Tschichold corroborated in their study of ancient books.
 
-Johan A. Van de Graaf, a dutch typographer, identified what he called "The Secret Canon" - the method by which page layouts of the incunabula were constructed regardless of the proportions of the page, and it works for many if not most of them.
+Whether or not the Golden Section was the real objective of Gutenberg, Tschichold contributed to our understanding of the canons by emphasizing that the text area should be in proportion to the page, and by identifying the proportions of the margins that accomplish this.
 
-Discuss also Rosarivo's construction by 9ths [pretty sure this was Rosarivo's approach - but double check it].
+[TODO talk about Tschichold's mention of Villard and how Van de Graaf's Secret Canon employs the technique of the Villard Diagram. Also talk about the tenuous link between Villard and the so-called Villard diagram. Who was Villard, what do we actually know of his work, and why do some people think the "Villard Diagram" was his?]
 
-Turning Back the Pages
+## Rethinking Canons of Layout for the Modern Web
 
-To really get a full picture of these canons, the Golden Mean, and how they all tie together over the ages, you need to trace back from the modern day (1940’s) to the time of the ancient Greeks. There’s a thread of knowledge passed through the millennia that has landed us here today.
-
-
-
-Part 3: Rethinking Canons of Layout for the Modern Web
-
-Part 4: Introducing Phi.JS
+## Introducing Phi.JS
 
 TODO
 
-* Trace the history of Canons of Layout and the Golden Mean from the present day back to it’s origins.
 * Describe the thought process leading to the new canons of layout.
 * Discuss difficulties translating the traditional canons to the web
 * Scrolling
@@ -112,10 +102,11 @@ TODO
 
 [3] Jan Tschichold, Robert Bringhurst, and Hajo Hadeler, [The Form of the Book: Essays on the Morality of Good Design](http://books.google.ca/books?id=EzNUAAAAMAAJ&dq)" (Amsterdam, Lund Humphries, 1991). Retrieved from http://books.google.ca/books?id=EzNUAAAAMAAJ&dq 18 November 2014. Collection of Essays originally titled "De properties van het boek (Die Proportionen des Buches)" published posthumously in 1991.
 
+[5] Raúl Mario Rosarivo, _Divina proporción tipográfica (Typographical Divine Proportion)_, (Buenos Aires, 1947).
 
-Raúl Mario Rosarivo, _Divina proporción tipográfica (Typographical Divine Proportion)_, (Buenos Aires, 1947).
+[6] Joh.A. Van de Graaf, _Nieuwe berekening voor de vormgeving (A new way to compute form)_ in: Tete, 1946: 95-100. (Amsterdam, November 1946). Shows the simplest way to divide paper height and width into ninths.
 
-Joh.A. Van de Graaf, _Nieuwe berekening voor de vormgeving (A new way to compute form)_ in: Tete, 1946: 95-100. (Amsterdam, November 1946). Shows the simplest way to dividepaper height and width into ninths.
+
 
 Luca Pacioli, _De Divina Proportiona_, illus. Leonardo da Vinci (1497).
 
