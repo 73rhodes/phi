@@ -1,3 +1,12 @@
+/*
+ *  phi.css
+ *  TODO: confine this to elements of class "phi", not *
+ *       so that it won't interfere with other CSS grids
+ */
+
+/*
+ * General grid box sizing
+ */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -21,7 +30,6 @@
   display: table;
   clear: both;
 }
-
 
 *[class*="golden-rect-"] *[class*="golden-col-"] {
   height: 100%;
@@ -49,6 +57,9 @@
   overflow: auto;
 }
 
+/*
+ * The Van de Graaf Canon
+ */
 .vandegraaf {
   padding-left: 11%;
   padding-right: 11%;
@@ -64,6 +75,9 @@
   margin-bottom: 0;
 }
 
+/*
+ * The Van de Graaf recto-verso layout
+ */
 .vandegraaf.multicolumn {
   /* column-gap is set programatically via JS */
   -moz-column-count: 2;
@@ -86,6 +100,10 @@
   padding-right: 0;
  }
 
+
+/*
+ * The Tschichold "Golden" Layout
+ */
 .tschichold {
   padding-left: 11%;
   padding-right: 11%;
@@ -109,6 +127,9 @@
 }
 */
 
+/*
+ * The Tschichold recto-verso layout
+ */
 .tschichold.multicolumn {
   /* column-gap is set programatically via JS */
   -moz-column-count: 2;
@@ -120,6 +141,9 @@
   column-gap: 20px;  
 }
 
+/*
+ * The Neo-Tschichold Layout
+ */
 /* left and right margins combine to equal width/phi */
 .neo-tschichold {
   padding-top: 14.3%;
@@ -128,6 +152,9 @@
   padding-bottom: 28.71%;
 }
 
+/*
+ * The Golden Optical Center
+ */
 .optical-center {
   padding-left: 19%;
   padding-right: 19%;

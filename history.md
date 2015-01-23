@@ -1,21 +1,55 @@
 # A Golden Thread
 
-###### New Canons of Layout Based on a Historical Perspective of the Golden Ratio
+###### New Canons of Layout Based on the Golden Ratio
 
-The Golden Ratio has fascinated designers, architects and artists for centuries, and continues to interest modern-day designers who want to apply principles of beautiful geometry to their pages. In 2009 I wrote [Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html), which talks about the Golden Ratio, canons of page construction, and some general ideas on how they might apply to modern-day web design. It's still one of my most popular posts. Since then, a lot of newer articles have appeared, including [The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/), which kindly linked to my article. It covers the concept of page construction popularized by the influential modernist typographer Jan Tschichold, and is intended mainly for print.
+The Golden Ratio has fascinated designers, architects and artists for centuries,
+and continues to interest modern-day designers who want to apply principles of
+beautiful geometry to their pages. In 2009 I wrote 
+[Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html),
+which talks about the Golden Ratio, canons of page construction, and some
+general ideas on how they might apply to modern-day web design. It\'s still one
+of my most popular posts. Since then, a lot of newer articles have appeared,
+including [The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/),
+which kindly linked to my article. It covers the concept of page construction
+popularized by the influential modernist typographer Jan Tschichold, and is
+intended mainly for print.
 
-My article gave some basic rules of thumb for applying concepts of layout to the web, but ended there. Since then, some excellent CSS frameworks and grids have come out, including a few that make reference to the Golden Ratio. [Rounded by Gravity](http://roundedbygravity.com/colophon/)[0], an experiment in typography from 2013, does a great job of demonstrating many principles of book design, including Tschichold's "Golden Canon", translated to the web. It's an impressive collection of typographical utilities and custom scripts, but it's not yet available as a packaged CSS framework for download. Some grid systems have appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/), [Golden Grid System](http://www.goldengridsystem.com/), [Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/) and the new [Golden Layout](https://golden-layout.com/) but in spite of their names they don't actually implement the Golden Canon or related constructions.
+My article gave some basic rules of thumb for applying concepts of layout to the
+web, but ended there. Since then, some excellent CSS frameworks and grids have
+come out, including a few that make reference to the Golden Ratio. [Rounded by
+Gravity](http://roundedbygravity.com/colophon/)[0], an experiment in typography
+from 2013, does a great job of demonstrating many principles of book design,
+including Tschichold's "Golden Canon", translated to the web. It's an impressive
+collection of typographical utilities and custom scripts, but it's not yet
+available as a packaged CSS framework for download. Some grid systems have
+appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/),
+[Golden Grid System](http://www.goldengridsystem.com/), 
+Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/) and the new
+[Golden Layout](https://golden-layout.com/) but in spite of their names they don't
+actually implement the Golden Canon or related constructions.
 
-This leaves web designers without a lot of options for implementing layouts based the Canons of Layout popularized by Tschichold and his contemporaries. Web pages are a lot different than the medieval manuscripts that first used the canons of layout, and it’s not easy to take ideas from ancient printed books and apply them to the Internet.
+This leaves web designers without a lot of options for implementing layouts based
+the Canons of Layout popularized by Tschichold and his contemporaries. Web pages
+are a lot different than the medieval manuscripts that first used the canons of
+layout, and it’s not easy to take ideas from ancient printed books and apply them
+to the Internet.
 
-I set off a couple of months ago working on an experimental layout framework for the web based on the concepts of the Canons of Layout that come from very old books. I wanted to see just how far I could go with the canons proposed by typographers Raúl Mario Rosarivo, Jan Tschichold and Johan A. Van de Graaf.  I’ve enjoyed working on it, and one of the most interesting parts was further researching the history of the Golden Ratio.
+I set off a couple of months ago working on an experimental layout framework for
+the web based on the concepts of the Canons of Layout that come from very old books.
+I wanted to see just how far I could go with the canons proposed by typographers
+Raúl Mario Rosarivo, Jan Tschichold and Johan A. Van de Graaf.  I’ve enjoyed working
+on it, and one of the most interesting parts was further researching the history of 
+the Golden Ratio.
 
-Its story leads back through time like a golden thread connecting 20th century typographers, medieval book makers, renaissance artists, architects, mathematicians and philosophers through their interest in this beautiful mathematical ratio known as the Golden Mean.
+Its story leads back through time like a golden thread connecting 20th century
+typographers, medieval book makers, renaissance artists, architects, mathematicians
+and philosophers through their interest in this beautiful mathematical ratio known as
+the Golden Mean.
 
 ## Revisiting the Golden Mean
 
-The mathematics of the Golden Ratio (aka. Golden Mean) are pretty fascinating all by themselves. 
-The ratio is defined using the symbol φ (phi) by this simple formula:
+The mathematics of the Golden Ratio (aka. Golden Mean) are pretty fascinating all by
+themselves. The ratio is defined using the symbol φ (phi) by this simple formula:
 
 ```
 a/b = (a+b)/a = φ
