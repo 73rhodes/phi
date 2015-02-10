@@ -57,9 +57,13 @@
   overflow: auto;
 }
 
+
 /*
+ * ----------------------
  * The Van de Graaf Canon
+ * ----------------------
  */
+
 .vandegraaf {
   padding-left: 11%;
   padding-right: 11%;
@@ -75,9 +79,13 @@
   margin-bottom: 0;
 }
 
+
 /*
+ * -----------------------------------
  * The Van de Graaf recto-verso layout
+ * -----------------------------------
  */
+
 .vandegraaf.multicolumn {
   /* column-gap is set programatically via JS */
   -moz-column-count: 2;
@@ -89,21 +97,24 @@
   column-gap: 11vw;
 }
 
- .row > .page {
+.row > .page {
   float: left;
   width: 50%;
   padding-right: 6.71%;
- }
+}
 
- .row > .page:last-of-type {
+.row > .page:last-of-type {
   padding-left: 6.71%;
   padding-right: 0;
- }
+}
 
 
 /*
+ * ------------------------------
  * The Tschichold "Golden" Layout
+ * ------------------------------
  */
+
 .tschichold {
   padding-left: 11%;
   padding-right: 11%;
@@ -128,7 +139,9 @@
 */
 
 /*
+ * ---------------------------------
  * The Tschichold recto-verso layout
+ * ---------------------------------
  */
 .tschichold.multicolumn {
   /* column-gap is set programatically via JS */
@@ -141,9 +154,13 @@
   column-gap: 20px;  
 }
 
+
 /*
+ * -------------------------
  * The Neo-Tschichold Layout
+ * -------------------------
  */
+
 /* left and right margins combine to equal width/phi */
 .neo-tschichold {
   padding-top: 14.3%;
@@ -152,9 +169,13 @@
   padding-bottom: 28.71%;
 }
 
+
 /*
+ * -------------------------
  * The Golden Optical Center
+ * -------------------------
  */
+
 .optical-center {
   padding-left: 19%;
   padding-right: 19%;

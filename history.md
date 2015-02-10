@@ -2,17 +2,31 @@
 
 ###### New Canons of Layout Based on the Golden Ratio
 
-The Golden Ratio has fascinated designers, architects and artists for centuries,
-and continues to interest modern-day designers who want to apply principles of
-beautiful geometry to their pages. In 2009 I wrote 
-[Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html),
-which talks about the Golden Ratio, canons of page construction, and some
-general ideas on how they might apply to modern-day web design. It\'s still one
-of my most popular posts. Since then, a lot of newer articles have appeared,
-including [The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/),
-which kindly linked to my article. It covers the concept of page construction
-popularized by the influential modernist typographer Jan Tschichold, and is
-intended mainly for print.
+The Golden Ratio has fascinated designers, architects and artists since ancient
+times, and it continues to be of interest to modern day graphic artists. With
+the modernist movement popularized by the Bauhaus school came a renewed
+interest in typography and page design. Several influential typographers turned
+to the earliest examples of printed books, medieval *incunabula*, long
+been considered to be the most beautiful examples of page layout, trying to 
+discover the secret canons of layout by which they were constructed. This led
+to several proposals that claimed to have successfully reverse engineered
+the forgotten rules of layout used in the incunabula. These modern-day canons of
+layout have been used by some publishers since the 1950's to produce beautiful
+proportions in high-quality book printing.
+
+
+Unfortunately the canons of layout are difficult to apply on the web. In 2009
+I wrote a post called 
+[Canons of Layout](http://51elliot.blogspot.ca/2009/12/canons-of-layout.html)
+that offered some general guidelines for applying the concepts of the Canons to
+web design. It focused on the importance of patterns and consistent margins,
+but it stopped short of proposing new canons for the web.
+
+
+It remains one of the most popular articles on my blog, and has been referenced
+by other blogs like 
+[The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/), which covers the concept of page construction popularized by
+the modernist typographer Jan Tschichold. It is intended mainly for print.
 
 My article gave some basic rules of thumb for applying concepts of layout to the
 web, but ended there. Since then, some excellent CSS frameworks and grids have
@@ -24,9 +38,10 @@ collection of typographical utilities and custom scripts, but it's not yet
 available as a packaged CSS framework for download. Some grid systems have
 appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/),
 [Golden Grid System](http://www.goldengridsystem.com/), 
-Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/) and the new
-[Golden Layout](https://golden-layout.com/) but in spite of their names they don't
-actually implement the Golden Canon or related constructions.
+Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/)
+and the new
+[Golden Layout](https://golden-layout.com/)
+but in spite of their names they don't actually implement the Golden Canon or related constructions.
 
 This leaves web designers without a lot of options for implementing layouts based
 the Canons of Layout popularized by Tschichold and his contemporaries. Web pages
