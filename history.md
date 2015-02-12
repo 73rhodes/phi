@@ -182,7 +182,23 @@ Plato, <i>Timeaus</i> (c.360 BC).
 
 Marie-Therese Zenner, _Villard de Honnecourt and Euclidian Geometry_, website: http://www.emis.de/journals/NNJ/Zenner.html retrieved 8 June 2014.
 
-This article tries to draw some connections between Euclid's geometry and the sketches of Villard de Honnecourt, proposing that the technique of dividing a space into 1/2, 1/3, etc can be seen in his work. It doesn't go so far as attribution. The so-called "Villard Diagram" seems to be an invention of Daniele Capo, who constructed it and made the attribution to Villard, however Tenuous. It does seem likely, however, that Villard and other architects and artists probably from Phidias (490-430 BC - who built the Parthenon statues)... from the ancient Greeks anyway... and certainly from Euclid (325-265 BC) onwards, knew methods of geometric construction that are illustrated by the so-called Villard Diagram. And not only the technique of dividing spaces into Nths, but of creating equilateral triangles and a great many other ingenious techniques for architecture and building. What the article by Marie-Therese Zenner is particularly interesting for is it's assertion that from the time of the ancient Greeks through the renaissance, from Euclid to Vitruvius to (Villard) de Honnecourt to da Vinci, artist and architect were two aspects of the same profession, and a knowledge of geometry was absolutely a requirement whether it was artistic rendering or engineering. You can see Honnecourts complete folio at https://archive.org/details/albumdevillardde00vill - it does not contain the so-called Villard Diagram. It certainly doesn't use any of these canons of page construction to define the layout of his sketchbook - as one tumblr post claimed - the margins are completely inconsistent, accidental, and frequently non-existent!
+This article tries to draw some connections between Euclid's geometry and the
+sketches of Villard de Honnecourt, proposing that the technique of dividing a
+space into 1/2, 1/3, etc can be seen in his work. It doesn't go so far as
+attribution. The so-called "Villard Diagram" seems to be an invention of
+Daniele Capo, who constructed it and made the attribution to Villard, however
+Tenuous. It does seem likely, however, that Villard and other architects and
+artists probably from Phidias (490-430 BC - who built the Parthenon statues)... 
+from the ancient Greeks anyway... and certainly from Euclid (325-265 BC)
+onwards, knew methods of geometric construction that are illustrated by the
+so-called Villard Diagram. And not only the technique of dividing spaces into
+Nths, but of creating equilateral triangles and a great many other ingenious
+techniques for architecture and building. What the article by Marie-Therese
+Zenner is particularly interesting for is it's assertion that from the time of
+the ancient Greeks through the renaissance, from Euclid to Vitruvius to
+(Villard) de Honnecourt to da Vinci, artist and architect were two aspects of
+the same profession, and a knowledge of geometry was absolutely a requirement
+whether it was artistic rendering or engineering. You can see Honnecourts complete folio at https://archive.org/details/albumdevillardde00vill - it does not contain the so-called Villard Diagram. It certainly doesn't use any of these canons of page construction to define the layout of his sketchbook - as one tumblr post claimed - the margins are completely inconsistent, accidental, and frequently non-existent!
 
 unknown, <i>Feuille de Papier</i>, website: http://www.ac-grenoble.fr/argouges/v1/PEDAGOGI/MAREAU/feuille_de_papier.htm retrieved 8 June, 2014.
 Another source of attribution for the so-called Villard Diagram. It mentions Honnecourt but contains no supporting evidence that the technique of dividing a space into N parts came from him. It seems likely that this technique was known at least since Euclid and used by many artist-architects from ancient Greece onwards.
