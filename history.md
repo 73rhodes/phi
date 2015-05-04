@@ -24,9 +24,10 @@ but it stopped short of proposing new canons for the web.
 
 
 It remains one of the most popular articles on my blog, and has been referenced
-by other blogs like 
-[The Secret Law of Page Harmony](http://retinart.net/graphic-design/secret-law-of-page-harmony/), which covers the concept of page construction popularized by
-the modernist typographer Jan Tschichold. It is intended mainly for print.
+by other blogs like [The Secret Law of Page Harmony]
+(http://retinart.net/graphic-design/secret-law-of-page-harmony/), which covers
+the concept of page construction popularized by the modernist typographer Jan
+Tschichold. It is intended mainly for print.
 
 My article gave some basic rules of thumb for applying concepts of layout to the
 web, but ended there. Since then, some excellent CSS frameworks and grids have
@@ -47,35 +48,47 @@ related constructions.
 This leaves web designers without a lot of options for implementing layouts
 based the Canons of Layout popularized by Tschichold and his contemporaries.
 Web pages are a lot different than the medieval manuscripts that first used
-the canons of layout, and it’s not easy to take ideas from ancient printed books and apply them
-to the Internet.
+the canons of layout, and it’s not easy to take ideas from ancient printed
+books and apply them to the Internet.
 
 I set off a couple of months ago working on an experimental layout framework for
-the web based on the concepts of the Canons of Layout that come from very old books.
-I wanted to see just how far I could go with the canons proposed by typographers
-Raúl Mario Rosarivo, Jan Tschichold and Johan A. Van de Graaf.  I’ve enjoyed working
-on it, and one of the most interesting parts was further researching the history of 
-the Golden Ratio.
+the web based on the concepts of the Canons of Layout that come from very old
+books.  I wanted to see just how far I could go with the canons proposed by
+typographers Raúl Mario Rosarivo, Jan Tschichold and Johan A. Van de Graaf. 
+I’ve enjoyed working on it, and one of the most interesting parts was further
+researching the history of the Golden Ratio.
 
 Its story leads back through time like a golden thread connecting 20th century
-typographers, medieval book makers, renaissance artists, architects, mathematicians
-and philosophers through their interest in this beautiful mathematical ratio known as
-the Golden Mean.
+typographers, medieval book makers, renaissance artists, architects,
+mathematicians and philosophers through their interest in this beautiful
+mathematical ratio known as the Golden Mean.
 
 ## Revisiting the Golden Mean
 
-The mathematics of the Golden Ratio (aka. Golden Mean) are pretty fascinating all by
-themselves. The ratio is defined using the symbol φ (phi) by this simple formula:
+The mathematics of the Golden Ratio (aka. Golden Mean) are pretty fascinating
+all by themselves. The ratio is defined using the symbol φ (phi) by this simple
+formula:
 
 ```
 a/b = (a+b)/a = φ
 ```
 
-This says that `b` is proportionally smaller than `a` by the same percentage that `a` is smaller than `a + b` together. Only one ratio works for this, and it's given a mathematical symbol: φ (phi). Solving for φ with the help of the quadratic formula, you arrive at φ = ~1.618.
+This says that `b` is proportionally smaller than `a` by the same percentage
+that `a` is smaller than `a + b` together. Only one ratio works for this, and
+it's given a mathematical symbol: φ (phi). Solving for φ with the help of the
+quadratic formula, you arrive at φ = ~1.618.
 
-People have claimed that the Golden Ratio is the basis for various forms in nature, like the spiral of a nautilus sea-shell, or the intervals at which tree branches sprout from the trunk. It's been claimed as the basis for the pillars at the Parthenon, the dimensions of the human body, Japanese zen garden design, the size of the screen on a MacBook computer, sunflowers, buildings and works of art.
+People have claimed that the Golden Ratio is the basis for various forms in
+nature, like the spiral of a nautilus sea-shell, or the intervals at which tree
+branches sprout from the trunk. It's been claimed as the basis for the pillars
+at the Parthenon, the dimensions of the human body, Japanese zen garden design, 
+the size of the screen on a MacBook computer, sunflowers, buildings and works
+of art.
 
-The Golden Ratio can also be expressed as pair of percentages, which is more useful for page design. If you wanted to divide the width of the page into two columns, a and b, that conform to the Golden Ratio, you can work this out pretty easily as follows:
+The Golden Ratio can also be expressed as pair of percentages, which is more
+useful for page design. If you wanted to divide the width of the page into two
+columns, a and b, that conform to the Golden Ratio, you can work this out pretty
+easily as follows:
 
 ```
 a = 1.618 * b
@@ -86,7 +99,9 @@ a = 62%
 
 ### The Golden Rectangle
 
-The Golden Ratio is often represented in the form of a special rectangle. It's a good way to visualize the Golden Ratio. The Golden Rectangle (aka. Golden Section) has height and width that conform to the Golden Ratio of approximately 1.618. With exactly this shape of rectangle, you can divide it into to a square and a smaller rectangle - and the smaller rectangle will *also* be a Golden Rectangle, which can again be divided into a square and another Golden Rectangle, and so on and so forth.  This picture is often used to illustrate the Golden Ratio, showing the repeating, perfectly-nesting nature. It's important to note that there is only one shape of rectangle where this works - the Golden Rectangle.
+The Golden Ratio is often represented in the form of a special rectangle. It's a
+good way to visualize the Golden Ratio. The Golden Rectangle (aka. Golden
+Section) has height and width that conform to the Golden Ratio of approximately 1.618. With exactly this shape of rectangle, you can divide it into to a square and a smaller rectangle - and the smaller rectangle will *also* be a Golden Rectangle, which can again be divided into a square and another Golden Rectangle, and so on and so forth.  This picture is often used to illustrate the Golden Ratio, showing the repeating, perfectly-nesting nature. It's important to note that there is only one shape of rectangle where this works - the Golden Rectangle.
 
 ![Image of Golden Section](http://mathworld.wolfram.com/images/eps-gif/GoldenSpiral_1000.gif)
 
