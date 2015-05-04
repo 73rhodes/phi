@@ -40,8 +40,7 @@ appeared with names like
 [Golden Grid](https://code.google.com/p/the-golden-grid/),
 [Golden Grid System](http://www.goldengridsystem.com/), 
 Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/)
-and the new
-[Golden Layout](https://golden-layout.com/)
+and the new [Golden Layout](https://golden-layout.com/)
 but in spite of their names they don't actually implement the Golden Canon or
 related constructions.
 
