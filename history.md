@@ -36,17 +36,19 @@ from 2013, does a great job of demonstrating many principles of book design,
 including Tschichold's "Golden Canon", translated to the web. It's an impressive
 collection of typographical utilities and custom scripts, but it's not yet
 available as a packaged CSS framework for download. Some grid systems have
-appeared with names like [Golden Grid](https://code.google.com/p/the-golden-grid/),
+appeared with names like
+[Golden Grid](https://code.google.com/p/the-golden-grid/),
 [Golden Grid System](http://www.goldengridsystem.com/), 
 Divine Grid](https://daveden.wordpress.com/2012/02/23/the-divine-grid/)
 and the new
 [Golden Layout](https://golden-layout.com/)
-but in spite of their names they don't actually implement the Golden Canon or related constructions.
+but in spite of their names they don't actually implement the Golden Canon or
+related constructions.
 
-This leaves web designers without a lot of options for implementing layouts based
-the Canons of Layout popularized by Tschichold and his contemporaries. Web pages
-are a lot different than the medieval manuscripts that first used the canons of
-layout, and it’s not easy to take ideas from ancient printed books and apply them
+This leaves web designers without a lot of options for implementing layouts
+based the Canons of Layout popularized by Tschichold and his contemporaries.
+Web pages are a lot different than the medieval manuscripts that first used
+the canons of layout, and it’s not easy to take ideas from ancient printed books and apply them
 to the Internet.
 
 I set off a couple of months ago working on an experimental layout framework for
