@@ -12,7 +12,6 @@ p {
   line-height: 1.6em;
   margin-bottom: 0;
   margin-top: 0;
-  text-align: justify;
 }
 
 
@@ -29,6 +28,10 @@ p + p {
   text-indent: 2em;
 }
 
+.multicolumn > p, .page > p {
+  text-align: justify;
+}
+
 .tschichold + .tschichold.noheader  p:first-of-type {
   text-indent: 2em;
 }
@@ -38,7 +41,3 @@ p + p {
   text-indent: 2em;
 }
 */
-
-.neo-tschichold p {
-  text-align: justify;
-}
